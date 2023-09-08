@@ -1,0 +1,555 @@
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/primitives/Spinner/Spinner.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes Spinner_spin__nwj17 {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.Spinner_spinner__x9mHI {
+  animation: Spinner_spin__nwj17 1s linear infinite;
+}
+
+.Spinner_documentSpinner___Z_7l {
+  position: absolute;
+  display: flex;
+  color: var(--color-text-lighter);
+  inset: 0;
+  place-content: center;
+  place-items: center;
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/primitives/Checkbox/Checkbox.module.css ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************/
+.Checkbox_container__zEtmg {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Checkbox_input__rcvGu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  opacity: 0;
+  outline: none;
+}
+
+.Checkbox_checkbox__9Ceu4 {
+  display: flex;
+  width: 18px;
+  height: 18px;
+  background: var(--color-surface);
+  border-radius: var(--radius-xs);
+  color: var(--color-accent);
+  place-content: center;
+  place-items: center;
+  transition: var(--transition);
+  transition-property: background, color, opacity;
+}
+
+.Checkbox_checkboxIcon__rsPPv {
+  width: 12px;
+  height: 12px;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.Checkbox_input__rcvGu:hover + .Checkbox_checkbox__9Ceu4,
+.Checkbox_input__rcvGu:focus-visible + .Checkbox_checkbox__9Ceu4 {
+  background: var(--color-surface-hover);
+}
+
+.Checkbox_input__rcvGu:checked + .Checkbox_checkbox__9Ceu4 {
+  background: var(--color-accent);
+  color: var(--color-surface-elevated);
+}
+
+.Checkbox_input__rcvGu:checked + .Checkbox_checkbox__9Ceu4 .Checkbox_checkboxIcon__rsPPv {
+  opacity: 1;
+}
+
+.Checkbox_input__rcvGu:disabled,
+.Checkbox_input__rcvGu:disabled + .Checkbox_checkbox__9Ceu4 {
+  cursor: default;
+  opacity: var(--opacity-disabled);
+}
+
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/CustomTaskItem.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+.CustomTaskItem_tiptapTaskItem__Bj9JN {
+  display: flex;
+  margin: var(--space-2) 0 var(--space-2) var(--space-8);
+}
+
+.CustomTaskItem_tiptipTaskItemCheckbox__mWAoe {
+  flex: 0 0 auto;
+  margin: var(--space-1) var(--space-6) 0 0;
+  padding-top: 1px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.CustomTaskItem_tiptipTaskItemContent__iBREP {
+  flex: 1 1 auto;
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/primitives/Button/Button.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.Button_button___Rt5n {
+  display: flex;
+  height: var(--space-13);
+  padding: 0 var(--space-7);
+  border-radius: var(--radius-sm);
+  place-items: center;
+  transition: var(--transition);
+  transition-property: background, color, opacity;
+  outline: none;
+}
+
+.Button_button___Rt5n:disabled {
+  cursor: default;
+  opacity: var(--opacity-disabled);
+}
+
+.Button_iconButton__xThnL {
+  width: var(--space-13);
+  padding: 0;
+  place-content: center;
+}
+
+.Button_buttonPrimary__Wikr1 {
+  background: var(--color-accent);
+  color: var(--color-surface-elevated);
+}
+
+.Button_buttonDestructive__ViMng {
+  background: rgb(var(--color-red));
+  color: var(--color-surface-elevated);
+}
+
+.Button_buttonPrimary__Wikr1:hover,
+.Button_buttonPrimary__Wikr1:focus-visible,
+.Button_buttonDestructive__ViMng:hover,
+.Button_buttonDestructive__ViMng:focus-visible {
+  opacity: var(--opacity-hover);
+}
+
+.Button_buttonSecondary__pWgoC {
+  background: var(--color-surface);
+  color: var(--color-text-light);
+}
+
+.Button_buttonSecondary__pWgoC:hover,
+.Button_buttonSecondary__pWgoC:focus-visible {
+  background: var(--color-surface-hover);
+  color: var(--color-text);
+}
+
+.Button_buttonSubtle__mJseh {
+  color: var(--color-text-lighter);
+}
+
+.Button_buttonSubtle__mJseh:not(:disabled):hover,
+.Button_buttonSubtle__mJseh:not(:disabled):focus-visible,
+.Button_buttonSubtle__mJseh[data-active] {
+  background: var(--color-surface);
+  color: var(--color-text-light);
+}
+
+.Button_button___Rt5n:not(.Button_iconButton__xThnL) .Button_icon__bkRtz {
+  margin-right: var(--space-4);
+  margin-left: calc(-1 * var(--space-1));
+}
+
+.Button_label__DA_QF {
+  font-size: var(--size-sm);
+  font-weight: 500;
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/primitives/Input/Input.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.Input_input__VlcBq {
+  height: var(--space-13);
+  padding: 0 var(--space-5);
+  background: var(--color-surface);
+  border-radius: var(--radius-sm);
+  font-size: var(--size-sm);
+  color: var(--color-text-light);
+  transition: var(--transition);
+  transition-property: background, color, opacity;
+  outline: none;
+}
+
+.Input_input__VlcBq:hover,
+.Input_input__VlcBq:focus-visible {
+  background: var(--color-surface-hover);
+  color: var(--color-text);
+}
+
+.Input_input__VlcBq:disabled {
+  cursor: default;
+  opacity: var(--opacity-disabled);
+}
+
+.Input_input__VlcBq::placeholder {
+  color: var(--color-text-lightest);
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/primitives/Popover/Popover.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+@keyframes Popover_up__Ot_Wz {
+  0% {
+    opacity: 0;
+    transform: translateY(var(--space-3));
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes Popover_down__5_8Wp {
+  0% {
+    opacity: 0;
+    transform: translateY(calc(-1 * var(--space-3)));
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.Popover_popover__c_IYk {
+  z-index: var(--z-above);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface-elevated);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-xl);
+  animation: 0.15s ease-in-out;
+}
+
+.Popover_popover__c_IYk[data-side="top"] {
+  animation-name: Popover_up__Ot_Wz;
+}
+.Popover_popover__c_IYk[data-side="bottom"] {
+  animation-name: Popover_down__5_8Wp;
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/Toolbar.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.Toolbar_toolbar__vUgck {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-shrink: 1;
+  gap: var(--space-2);
+}
+
+.Toolbar_toolbarSection__NZ61O {
+  display: flex;
+  margin-right: var(--space-8);
+  align-items: center;
+  gap: var(--space-2);
+}
+
+.Toolbar_toolbarSection__NZ61O::before {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: var(--space-10);
+  background: var(--color-border);
+  margin-left: calc(var(--space-4) * -1);
+}
+
+.Toolbar_toolbarButton__yG_v0 {
+  padding: var(--space-4);
+}
+
+.Toolbar_toolbarButton__yG_v0 svg {
+  height: 20px;
+  width: 20px;
+}
+
+.Toolbar_toolbarSeparator__is__Z {
+  width: 1px;
+  height: var(--space-10);
+  background: var(--color-border);
+  margin: 0 var(--space-2);
+}
+
+.Toolbar_toolbarPopover__FjuR5 {
+  display: flex;
+  min-width: 160px;
+  flex-direction: column;
+  padding: var(--space-4);
+  box-shadow: var(--shadow-xl);
+}
+
+.Toolbar_toolbarPopoverLabel__G3bz9 {
+  font-size: var(--size-sm);
+  font-weight: 500;
+  padding: var(--space-2) var(--space-1) var(--space-4);
+}
+
+.Toolbar_toolbarPopoverBar__SV1Mt {
+  display: flex;
+  gap: var(--space-3);
+}
+
+.Toolbar_toolbarPopoverInput__CJEht {
+  width: 200px;
+}
+
+.Toolbar_toolbarPopoverButton__7DTrV {
+  white-space: nowrap;
+}
+
+.Toolbar_headingsSelect__pigV3 {
+  width: 130px;
+}
+
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/TextEditor.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.TextEditor_container__39VQm {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-surface);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.TextEditor_editorHeader__My_QY {
+  top: 0;
+  left: 0;
+  right: 0;
+  flex: 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  background: var(--color-surface-elevated);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--space-3);
+  z-index: var(--z-above);
+}
+
+.TextEditor_editorPanel__K0sQt {
+  flex: 1 1;
+  overflow-y: scroll;
+}
+
+.TextEditor_editor__dyd4b {
+  border-radius: inherit;
+  flex-grow: 1;
+  width: 100%;
+  height: 100%;
+  padding: var(--space-20);
+}
+
+.TextEditor_editor__dyd4b:focus {
+  outline: none;
+}
+
+.TextEditor_editorContainer__ic8GC {
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+  max-width: 900px;
+  margin: var(--space-8) auto;
+  border: 1px solid var(--color-border);
+  background: var(--color-surface-elevated);
+}
+
+.TextEditor_placeholder__9zRHE {
+  pointer-events: none;
+  position: absolute;
+  inset: 0;
+  opacity: 0.3;
+  padding: 0 1em;
+}
+
+.TextEditor_bubbleMenuWrapper__OM1_V {
+  display: flex;
+  background: var(--color-surface-elevated);
+  gap: var(--space-2);
+  padding: var(--space-3);
+  box-shadow: var(--shadow-xl);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+}
+
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/primitives/Select/Select.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.Select_trigger__RmPda {
+  display: flex;
+  height: var(--space-13);
+  padding: 0 var(--space-7);
+  border-radius: var(--radius-sm);
+  font-size: var(--size-sm);
+  font-weight: 500;
+  gap: var(--space-4);
+  place-items: center;
+  background: var(--color-surface);
+  color: var(--color-text-light);
+  transition: var(--transition);
+  transition-property: background, color, opacity;
+  outline: none;
+}
+
+.Select_triggerSubtle___Tlb6 {
+  background: none;
+}
+
+.Select_trigger__RmPda:hover,
+.Select_trigger__RmPda:focus-visible {
+  background: var(--color-surface-hover);
+  color: var(--color-text);
+}
+
+.Select_triggerSubtle___Tlb6:hover,
+.Select_triggerSubtle___Tlb6:focus-visible {
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+
+.Select_triggerIcon__XLl4R {
+  flex: none;
+  margin-right: calc(-1 * var(--space-3));
+  margin-left: auto;
+  opacity: 0.4;
+}
+
+.Select_trigger__RmPda[data-placeholder] {
+  color: var(--color-text-lightest);
+  font-weight: 400;
+}
+
+.Select_trigger__RmPda[data-disabled] {
+  cursor: default;
+  opacity: var(--opacity-disabled);
+}
+
+.Select_select__qU3Ao {
+  z-index: var(--z-above);
+  padding: var(--space-3);
+  border: 1px solid var(--color-border);
+  background: var(--color-surface-elevated);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-xl);
+}
+
+.Select_item__8Mo8V {
+  display: flex;
+  padding: var(--space-3) var(--space-5);
+  border-radius: var(--radius-sm);
+  color: var(--color-text-light);
+  cursor: pointer;
+  font-size: var(--size-sm);
+  font-weight: 500;
+  outline: none;
+  place-items: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.Select_itemInfo__M6K_8 {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.Select_itemDescription__ctmQE {
+  font-size: var(--size-xs);
+  font-weight: 400;
+  opacity: 0.6;
+}
+
+.Select_item__8Mo8V[data-highlighted] {
+  background: var(--color-surface);
+  color: var(--color-text);
+}
+
+.Select_item__8Mo8V[data-disabled] {
+  cursor: default;
+  opacity: var(--opacity-disabled);
+}
+
+.Select_itemIndicator__Kvyh8 {
+  width: 16px;
+  height: 16px;
+  flex: none;
+  margin-right: var(--space-4);
+  margin-left: calc(-1 * var(--space-1));
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[7].use[3]!./src/components/Avatars.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************/
+.Avatars_avatars__b2Uuv {
+  display: flex;
+  padding: 0 0.75rem;
+}
+
+.Avatars_avatar__lOKRj {
+  display: flex;
+  flex-shrink: 0;
+  place-content: center;
+  position: relative;
+  border: 4px solid var(--color-surface-elevated);
+  border-radius: 9999px;
+  width: 36px;
+  height: 36px;
+  background-color: #9ca3af;
+  margin-left: -0.75rem;
+}
+
+.Avatars_avatar__lOKRj:before {
+  content: attr(data-tooltip);
+  position: absolute;
+  top: 100%;
+  opacity: 0;
+  transition: opacity 0.15s ease;
+  padding: 5px 10px;
+  color: var(--color-surface-elevated);
+  font-size: 0.75rem;
+  border-radius: 8px;
+  margin-top: 10px;
+  z-index: 1;
+  background: var(--color-text);
+  white-space: nowrap;
+}
+
+.Avatars_avatar__lOKRj:hover:before {
+  opacity: 1;
+}
+
+.Avatars_avatar_picture__2sc2Z {
+  border-radius: 9999px;
+}
+
